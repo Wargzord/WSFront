@@ -3,22 +3,45 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Work Shop Front End</title>
+        
+        <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <!-- topo da pagina, com o titulo -->
-	<div> 
-		<h1> Blog ZXY feito no Workshop </h1>
-	</div>	
-	<!-- fim do topo e inicio do corpo da materia -->
-	<div> 
-		<h2>Bem Vindo ao Blog do primeiro Workshop do Serra do Silicio</h2>
-		<h3>O Workshop esta acontecendo agora!</h3>
-	</div>
-	<!-- final do corpo da materia inicio do campode comentarios -->
-	<div> 
-		<input type="text" placeholder="Nome"/> 
-		<input type="text" size="100" placeholder="Comentario"/> 		
-	</div>
-        <!-- fim do campo de comentarios -->
+    <header>
+        <nav>
+            <h1><a href="index.html">Blog ZXY feito no Workshop</a></h1>
+            <menu>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="quemsomos.html">Quem somos</a></li>
+                    <li><a href="faleconosco.html">Fale Conosco</a></li>
+                </ul>
+            </menu>
+        </nav>
+    </header>
+    <!-- fim do topo e inicio do corpo da materia -->
+    <section>
+
+        <article>
+            <h1>Bem Vindo ao Blog do primeiro Workshop do Serra do Silicio</h1>
+            <h2>O Workshop esta acontecendo agora!</h2>
+            <p>
+                Gostaria de enfatizar que o desafiador cenário globalizado oferece uma interessante oportunidade para verificação das formas de ação.
+            </p>
+        </article>
+    </section>
+    <!-- final do corpo da materia inicio do campode comentarios -->
+    <footer>	
+        <section>
+            Deixe seu comentário
+            <br/>
+            Nome:<br/>
+            <input type="text" placeholder="Nome"/><br/>
+            Seu comentário: <br/>
+            <textarea cols="50" rows="7" placeholder="Comentario"></textarea>
+        </section>
+    </footer>
+    <!-- fim do campo de comentarios -->
 </body>
 </html>
